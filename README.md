@@ -8,7 +8,7 @@ C# provides a built-in class called "System.Numerics.BigInteger" for working wit
 
 Here is an example of a program written in C# using the "System.Numerics.BigInteger" class to solve Collatz Conjecture for large integers:
 
-Copy code
+
 using System;
 using System.Numerics;
 
