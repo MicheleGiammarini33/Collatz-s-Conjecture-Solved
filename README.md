@@ -8,8 +8,6 @@ In this case, we will be using C# as the programming language and the "System.Nu
 
 The program starts by prompting the user for an integer, using the Console.WriteLine and Console.ReadLine methods. The input from the console is then converted to a BigInteger using the BigInteger.Parse method. This allows us to work with large integers that may have an arbitrarily large number of digits.
 
-The program then uses a while loop to repeatedly apply the Collatz algorithm until the number reaches 1. The BigInteger.Remainder method is used to check if the number is even, and the assignment operator is used to perform the appropriate operations for the Collatz algorithm. The program keeps track of the number of steps taken to reach 1 using a variable called "steps".
-
 Once the number reaches 1, the program prints out the number of steps taken to reach 1 using the Console.WriteLine method.
 
 It should be noted that, as previously mentioned, the conjecture is not proved for all integers, but this program can be used to test the conjecture for large integers. However, this program is not an efficient solution to the Collatz Conjecture problem as its execution time increases with the size of the input number, making it impractical to test the conjecture for extremely large integers. Additionally, it should be noted that this program is not able to prove the conjecture, but it can only test it.
